@@ -12,7 +12,6 @@ public abstract class BankAccount {
 	
 	public BankAccount()
 	{
-		javax.swing.JOptionPane input = new javax.swing.JOptionPane();
 		
 		//	Account Number
 		int accountNumber = Integer.parseInt(JOptionPane.showInputDialog("Enter number account"));
